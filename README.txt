@@ -4,7 +4,7 @@ certainly is annoying and even restricting bugs in the code.
 
 HymnGadget includes the following libraries:
 
-abcjs : http://code.google.com/p/abcjs/
+abcjs : https://github.com/paulrosen/abcjs
 jQuery : http://jquery.com/
 jQueryUI : http://jqueryui.com/
 
