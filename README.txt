@@ -1,4 +1,4 @@
-HymnGadget is in an early state and is not recommended for serious 
+HymnGadget is in an early stage and is not recommended for serious 
 use yet. There are security holes that should be fixed and there 
 certainly is annoying and even restricting bugs in the code. 
 
