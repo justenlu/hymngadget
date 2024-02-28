@@ -64,10 +64,10 @@ session_start();
 
 <div id="about_div" class="hidden" style="clear:both;">
 
-<p>Tämä palvelu on toteutettu HymnGadget-ohjelmistolla, jolla ei ole MINKÄÄNLAISTA TAKUUTA. Kyseessä on ns. vapaa ohjelmisto, jota kuka tahansa voi levittää ja muokata <a href="http://www.gnu.org/licenses/gpl.html" target="_blank" class="underline">GNU GPL v. 3</a> -lisenssin ehtojen mukaisesti. Nuottikuvien piirtämiseen käytetään <a href="http://code.google.com/p/abcjs/" target="_blank" class="underline">abcjs-järjestelmää</a>, joka myös on vapaa ohjelmisto.</p><p>
+<p>Tämä palvelu on toteutettu HymnGadget-ohjelmistolla, jolla ei ole MINKÄÄNLAISTA TAKUUTA. Kyseessä on ns. vapaa ohjelmisto, jota kuka tahansa voi levittää ja muokata <a href="http://www.gnu.org/licenses/gpl.html" target="_blank" class="underline">GNU GPL v. 3</a> -lisenssin ehtojen mukaisesti. Nuottikuvien piirtämiseen käytetään <a href="https://www.abcjs.net/" target="_blank" class="underline">abcjs-järjestelmää</a>, joka myös on vapaa ohjelmisto.</p><p>
 
 
-<p>HymnGadget-ohjelmiston laati ja tämän verkkopalvelun perusti Jukka Stenlund osana kirkkomusiikin opintojensa lopputyötä <a href="https://www.siba.fi/"  target="_blank" class="underline">Sibelius-Akatemiassa.</a></p>
+<p>HymnGadget-ohjelmiston laati Jukka Stenlund osana kirkkomusiikin opintojensa lopputyötä <a href="https://www.uniarts.fi/yksikot/sibelius-akatemia/"  target="_blank" class="underline">Sibelius-Akatemiassa.</a></p>
 <p><a href='#' onclick="hide_or_show_element_with_id('about_div'); return false;" class="underline">Sulje tiedote</a></p>
 
 <a href="http://www.gnu.org/licenses/gpl.html" target="_blank"><img src="graphics/gplv3.png"></a>
