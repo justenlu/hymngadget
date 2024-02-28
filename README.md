@@ -2,6 +2,8 @@ Hymngadget is a prototype of a tool for publishing song books in the web. It was
 
 HymnGadget should be treated as a prototype that is not recommended for real life use. There are security holes that should be fixed and there certainly is annoying and even restricting bugs in the code. 
 
+Hymngadget was running on a server that had Debian 6 Squeeze GNU/Linux, MySQL 5.5 and PHP 5.3. On the client side the developer used Firefor browser (e.g. version 23.0.1) running on Mac OS X (e.g. version 10.6.8)
+
 HymnGadget includes the following libraries:
 
 - abcjs : https://github.com/paulrosen/abcjs
