@@ -21,6 +21,10 @@ function substitute_html_entities(str) {
 	if (!str) {
 		return "";
 	}
+	if (typeof str==='number') {
+		return str;
+	}
+	console.log('str: ', str)
 	str=str.replace(/\"/g, "&quot");
 	str=str.replace(/\''/g, "&apos");
 	str=str.replace(/&/g, "&amp");
