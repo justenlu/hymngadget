@@ -37,20 +37,13 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 
---
--- Rakenne taululle `book`
---
-
 CREATE TABLE IF NOT EXISTS `book` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `name` varchar(50) COLLATE utf8_swedish_ci NOT NULL,
   `added` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci AUTO_INCREMENT=4 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci ;
 
---
--- Rakenne taululle `customisation`
---
 
 CREATE TABLE IF NOT EXISTS `customisation` (
   `user` int(10) unsigned NOT NULL,
@@ -63,10 +56,6 @@ CREATE TABLE IF NOT EXISTS `customisation` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci;
 -- --------------------------------------------------------
 
---
--- Rakenne taululle `harmonisation`
---
-
 CREATE TABLE IF NOT EXISTS `harmonisation` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `notation` varchar(10000) COLLATE utf8_swedish_ci DEFAULT NULL,
@@ -76,13 +65,9 @@ CREATE TABLE IF NOT EXISTS `harmonisation` (
   `public` enum('N','Y') COLLATE utf8_swedish_ci NOT NULL DEFAULT 'N',
   `added` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci AUTO_INCREMENT=146 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci ;
 
 -- --------------------------------------------------------
-
---
--- Rakenne taululle `list`
---
 
 CREATE TABLE IF NOT EXISTS `list` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
@@ -90,13 +75,9 @@ CREATE TABLE IF NOT EXISTS `list` (
   `name` varchar(50) COLLATE utf8_swedish_ci NOT NULL,
   `added` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci AUTO_INCREMENT=72 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci ;
 
 -- --------------------------------------------------------
-
---
--- Rakenne taululle `list_item`
---
 
 CREATE TABLE IF NOT EXISTS `list_item` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
@@ -109,13 +90,9 @@ CREATE TABLE IF NOT EXISTS `list_item` (
   `harmonisation` int(10) unsigned DEFAULT NULL,
   `added` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci AUTO_INCREMENT=349 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci ;
 
 -- --------------------------------------------------------
-
---
--- Rakenne taululle `melody`
---
 
 CREATE TABLE IF NOT EXISTS `melody` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
@@ -123,13 +100,9 @@ CREATE TABLE IF NOT EXISTS `melody` (
   `origin` varchar(100) COLLATE utf8_swedish_ci DEFAULT NULL,
   `added` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci AUTO_INCREMENT=133 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci ;
 
 -- --------------------------------------------------------
-
---
--- Rakenne taululle `rights`
---
 
 CREATE TABLE IF NOT EXISTS `rights` (
   `user` int(10) unsigned NOT NULL,
@@ -146,10 +119,6 @@ CREATE TABLE IF NOT EXISTS `rights` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci;
 
 
---
--- Rakenne taululle `song`
---
-
 CREATE TABLE IF NOT EXISTS `song` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `number` int(10) unsigned DEFAULT NULL,
@@ -160,14 +129,10 @@ CREATE TABLE IF NOT EXISTS `song` (
   `added` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `information` varchar(1000) COLLATE utf8_swedish_ci DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci AUTO_INCREMENT=194 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci ;
 
 
 -- --------------------------------------------------------
-
---
--- Rakenne taululle `user`
---
 
 CREATE TABLE IF NOT EXISTS `user` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
@@ -182,14 +147,10 @@ CREATE TABLE IF NOT EXISTS `user` (
   `enabled` enum('N','Y') COLLATE utf8_swedish_ci NOT NULL DEFAULT 'Y',
   PRIMARY KEY (`id`),
   UNIQUE KEY `username` (`username`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci AUTO_INCREMENT=3 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci ;
 
 
 -- --------------------------------------------------------
-
---
--- Rakenne taululle `verse`
---
 
 CREATE TABLE IF NOT EXISTS `verse` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
@@ -198,7 +159,7 @@ CREATE TABLE IF NOT EXISTS `verse` (
   `song` int(10) unsigned NOT NULL,
   `added` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci AUTO_INCREMENT=1623 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci ;
 
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
