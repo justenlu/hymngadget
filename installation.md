@@ -4,7 +4,7 @@ HymnGadget is a prototype, not intended to be used in real life (or "in producti
 
 HymnGadget needs a database. MySQL 5.5. was used for the purpose when HymnGadged was developed. The SQL statements that create the tables needed are in the file `hymngadget.sql`. You also have to create a database user and grant it read and write access to the database you created. 
 
-To run server side code of HymnGadget, a server capable of running PHP is needed. When HymnGadget was developed, PHP 5.3 was used. In these instructions we use the built-in web server of PHP. If you use some other server, ensure that the server is configured to run .php-files instead of serving the source code of the files. This is important because the password of the database will be written to a .php file without any encryption.
+To run server side code of HymnGadget, a server capable of running PHP is needed. When HymnGadget was developed, PHP 5.3 was used. In these instructions we use the built-in web server of PHP. If you use some other server, ensure that the server is configured to run `.php`-files instead of serving the source code of the files. This is important because the password of the database will be written to a `.php` file without any encryption.
 
 To configure the database connection of HymnGadget, do as follows:
 
