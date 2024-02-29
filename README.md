@@ -18,7 +18,7 @@ User of HymnGadget can make "playlists" of the songs. The customisations are rem
 
 The songs are stored in a text based format called HymnCode designed for HymnGadget. The documentation of the format is found in [veisuuvekotin.net](https://veisuuvekotin.net) (in Finnish). The format was influenced by abc-format and [LilyPond](https://lilypond.org/) format. HymnGadget converts HymnCode to object based structure. Customisations (transposing, selecting the harmonisation and verses) are done in that structure. The object structure is then converted to abc format and [abcjs library](https://github.com/paulrosen/abcjs) is used to draw sheet music from that.
 
-Converter to translate songs from other formats to HymnCode was not developed in the project. To store new songs to HymnGadget, user has to know HymnCode. The code was designed to be easy to learn (for a musician that has a little knowledge about the theory of western music), fast to type and suitable to describe the sheet music in the hymnal book of the Evangelical Lutheran Church of Finland.
+Converter to translate songs from other formats to HymnCode was not developed in the project. To store new songs to HymnGadget, user has to use HymnCode. The code was designed to be easy to learn (for a musician that has a little knowledge about the theory of western music), fast to type and suitable to describe the sheet music in the hymnal book of the Evangelical Lutheran Church of Finland.
 
 ## Programming languages and libraries used
 
