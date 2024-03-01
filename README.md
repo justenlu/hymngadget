@@ -28,6 +28,8 @@ HymnGadget was coded with JavaScript and PHP. It includes the following librarie
 - [jQuery](http://jquery.com/)
 - [jQueryUI](http://jqueryui.com/)
 
+The versions of the libraries included are very old and should be updated.
+
 ## Development environment
 
 HymnGadget was running on a server that had Debian 6 Squeeze GNU/Linux, MySQL 5.5 and PHP 5.3. On the client side the developer used Firefor browser (e.g. version 23.0.1) running on Mac OS X (e.g. version 10.6.8).
