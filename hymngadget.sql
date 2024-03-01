@@ -18,18 +18,11 @@ along with HymnGadget.  If not, see <http://www.gnu.org/licenses/>.
 
 */
 
--- phpMyAdmin SQL Dump
+-- This file was edited from phpMyAdmin SQL Dump
 -- version 3.4.5
 -- http://www.phpmyadmin.net
---
--- Palvelin: localhost:3306
--- Luontiaika: 23.08.2013 klo 14:14
--- Palvelimen versio: 5.5.31
--- PHP:n versio: 5.3.8
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
-SET time_zone = "+00:00";
-
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
