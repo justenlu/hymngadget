@@ -2,7 +2,7 @@
 
 HymnGadget is a prototype of a single page application for publishing song books in the web. It was designed specially thinking of the hymnal book of the [Evangelical Lutheran Church of Finland](https://evl.fi/en/). It was a part of a study project of a church music student in The [Sibelius Academy](https://www.uniarts.fi/en/units/sibelius-academy/) of the University of the Arts Helsinki, Finland. The study project ended in 2013. The Finnish name of HymnGadget is Veisuuvekotin. More information is available in [veisuuvekotin.net](https://veisuuvekotin.net) (in Finnish).
 
-HymnGadget should be treated as a prototype that is not recommended for real life use. There are security holes that should be fixed and there certainly is annoying and even restricting bugs in the code. 
+HymnGadget should be treated as a prototype that is not recommended for real life use. There are security holes that should be fixed and there certainly is annoying and even restricting bugs in the code. See [Issues](https://github.com/justenlu/hymngadget/issues) for some more information.
 
 ## Features
 
