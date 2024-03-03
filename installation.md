@@ -39,3 +39,10 @@ INSERT INTO book(name) values ('The name of the book');
 ```
 
 Songs are added writing HymnCode in the editor of the application. There is no WYSIWYG editor.
+
+To be able to add songs you have to set rights for the user you just created for the book you just created:
+
+``` SQL
+INSERT INTO rights(user, book, add_song, add_harmonisation, edit_metadata, edit_melody, edit_any_harmonisation, edit_lyrics)
+VALUES (1, 1, 'Y', 'Y', 'Y', 'Y', 'Y', 'Y');
+```
