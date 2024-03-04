@@ -6,6 +6,12 @@ In HymnCode, melody, harmony and lyrics are written separately.
 
 ## Melody
 
+Here is an example of a simple melody coded with HymnCode:
+
+```
+K:2# 3/4 d4 d8-e-fis-g | a4 fis d | g cis cis | d d'2.
+```
+
 ### Clefs
 
 HymnCode does not support defining clefs. HymnGadget draws all music using treble clef.
@@ -20,7 +26,7 @@ Time signatures that concist of numbers are written like `4/4`. HymnCode (and Hy
 
 ### Pitches
 
-German names are used for pitches: `c d e f g a h`
+German names are used for pitches: `c d e f g a h`. Sharp pitches are written like `cis dis eis` and flat pitches like `ces des es`. Double sharps are written like `cisis` and double flats like `ceses`. Octave is lowered adding `,` one or more times after the name of the pitch and highered adding `'` one or more times.
 
 ### Rests
 
