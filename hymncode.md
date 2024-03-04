@@ -6,7 +6,7 @@ In HymnCode, melody, harmony and lyrics are written separately.
 
 ## Melody
 
-## Clefs
+### Clefs
 
 HymnCode does not support defining clefs. HymnGadget draws all music using treble clef.
 
