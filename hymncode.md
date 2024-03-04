@@ -12,7 +12,7 @@ HymnCode does not support defining clefs. HymnGadget draws all music using trebl
 
 ### Keys
 
-In HymnGadget, only the number of sharps (e.g. `K:2#`) or flats (e.g. `K:3b`) in the key signature is defined. The key signature with two sharps is coded as `K:2#` no matter if the song is in D major or h minor. If there is no sharps or flats in the key signature (like in C major on a minor), the key signature is not written at all.
+In HymnGadget, only the number of sharps (e.g. `K:2#`) or flats (e.g. `K:3b`) in the key signature is defined. The key signature with two sharps is coded as `K:2#` no matter if the song is in D major or h minor. If there is no sharps or flats in the key signature (like in C major or a minor), the key signature is not written at all.
 
 ### Time signatures
 
